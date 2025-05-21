@@ -5,7 +5,7 @@ from std_msgs.msg import String
 
 class FirstPublisher(Node):
     def __init__(self):
-        super().__init__("pub1")
+        super().__init__("pub2")
         self.publisher_=self.create_publisher(String,'Second_topic',10)
         timer_period=0.5
         self.timer=self.create_timer(timer_period,self.publish_firstpub)

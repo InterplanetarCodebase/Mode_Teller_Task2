@@ -14,13 +14,15 @@ class ModeMonitor(Node):
 
         auto_running = 'pub1' in node_names
         manual_running = 'pub2' in node_names
+        self.get_logger().info(f'Active nodes: {node_names}')
+
 
         if auto_running and manual_running:
             msg.data = 'Running in both Autonomous and Manual'
         elif auto_running:
-            msg.data = 'Running in Autonomous'
+            msg.data = 'Running in autonomous'
         elif manual_running:
-            msg.data = 'Running in Manual'
+            msg.data = 'Running in manual'
         else:
             msg.data = 'No control node running'
 

@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/new_pkg/new_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/new_pkg/new_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/new_pkg/new_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/new_pkg/new_pkg.egg-info/requires.txt
+writing top-level names to ../../build/new_pkg/new_pkg.egg-info/top_level.txt
+reading manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying new_pkg/pub2.py -> /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg
+copying new_pkg/mode_runner.py -> /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg
+running install
+running install_lib
+copying /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg/pub2.py -> /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg
+copying /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg/mode_runner.py -> /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg
+byte-compiling /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg/pub2.py to pub2.cpython-312.pyc
+byte-compiling /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg/mode_runner.py to mode_runner.cpython-312.pyc
+running install_data
+copying package.xml -> /home/muntaham/new_ws/install/new_pkg/share/new_pkg
+running install_egg_info
+removing '/home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg-1.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/new_pkg/new_pkg.egg-info to /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg-1.0.0-py3.12.egg-info
+running install_scripts
+Installing puber script to /home/muntaham/new_ws/install/new_pkg/lib/new_pkg
+Installing puber2 script to /home/muntaham/new_ws/install/new_pkg/lib/new_pkg
+Installing puber3 script to /home/muntaham/new_ws/install/new_pkg/lib/new_pkg
+writing list of installed files to '/home/muntaham/new_ws/build/new_pkg/install.log'

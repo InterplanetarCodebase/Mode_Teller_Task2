@@ -1,0 +1,26 @@
+[0.540s] Invoking command in '/home/muntaham/new_ws/src/new_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/muntaham/new_ws/build/new_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/new_pkg build --build-base /home/muntaham/new_ws/build/new_pkg/build install --record /home/muntaham/new_ws/build/new_pkg/install.log --single-version-externally-managed install_data
+[0.718s] running egg_info
+[0.730s] writing ../../build/new_pkg/new_pkg.egg-info/PKG-INFO
+[0.730s] writing dependency_links to ../../build/new_pkg/new_pkg.egg-info/dependency_links.txt
+[0.730s] writing entry points to ../../build/new_pkg/new_pkg.egg-info/entry_points.txt
+[0.730s] writing requirements to ../../build/new_pkg/new_pkg.egg-info/requires.txt
+[0.730s] writing top-level names to ../../build/new_pkg/new_pkg.egg-info/top_level.txt
+[0.754s] reading manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+[0.755s] writing manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+[0.755s] running build
+[0.755s] running build_py
+[0.755s] copying new_pkg/mode_runner.py -> /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg
+[0.755s] running install
+[0.759s] running install_lib
+[0.771s] copying /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg/mode_runner.py -> /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg
+[0.771s] byte-compiling /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg/mode_runner.py to mode_runner.cpython-312.pyc
+[0.772s] running install_data
+[0.772s] running install_egg_info
+[0.785s] removing '/home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg-1.0.0-py3.12.egg-info' (and everything under it)
+[0.785s] Copying ../../build/new_pkg/new_pkg.egg-info to /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg-1.0.0-py3.12.egg-info
+[0.785s] running install_scripts
+[0.868s] Installing puber script to /home/muntaham/new_ws/install/new_pkg/lib/new_pkg
+[0.868s] Installing puber2 script to /home/muntaham/new_ws/install/new_pkg/lib/new_pkg
+[0.868s] Installing puber3 script to /home/muntaham/new_ws/install/new_pkg/lib/new_pkg
+[0.868s] writing list of installed files to '/home/muntaham/new_ws/build/new_pkg/install.log'
+[0.886s] Invoked command in '/home/muntaham/new_ws/src/new_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/muntaham/new_ws/build/new_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/new_pkg build --build-base /home/muntaham/new_ws/build/new_pkg/build install --record /home/muntaham/new_ws/build/new_pkg/install.log --single-version-externally-managed install_data
