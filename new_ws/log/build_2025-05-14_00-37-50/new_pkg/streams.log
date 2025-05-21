@@ -1,0 +1,37 @@
+[0.995s] Invoking command in '/home/muntaham/new_ws/src/new_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/muntaham/new_ws/build/new_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/new_pkg build --build-base /home/muntaham/new_ws/build/new_pkg/build install --record /home/muntaham/new_ws/build/new_pkg/install.log --single-version-externally-managed install_data
+[1.279s] running egg_info
+[1.280s] creating ../../build/new_pkg/new_pkg.egg-info
+[1.297s] writing ../../build/new_pkg/new_pkg.egg-info/PKG-INFO
+[1.298s] writing dependency_links to ../../build/new_pkg/new_pkg.egg-info/dependency_links.txt
+[1.298s] writing entry points to ../../build/new_pkg/new_pkg.egg-info/entry_points.txt
+[1.298s] writing requirements to ../../build/new_pkg/new_pkg.egg-info/requires.txt
+[1.298s] writing top-level names to ../../build/new_pkg/new_pkg.egg-info/top_level.txt
+[1.298s] writing manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+[1.339s] reading manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+[1.340s] writing manifest file '../../build/new_pkg/new_pkg.egg-info/SOURCES.txt'
+[1.340s] running build
+[1.340s] running build_py
+[1.341s] creating /home/muntaham/new_ws/build/new_pkg/build
+[1.341s] creating /home/muntaham/new_ws/build/new_pkg/build/lib
+[1.341s] creating /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg
+[1.341s] copying new_pkg/__init__.py -> /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg
+[1.341s] copying new_pkg/pub1.py -> /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg
+[1.341s] running install
+[1.348s] running install_lib
+[1.367s] creating /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg
+[1.367s] copying /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg/__init__.py -> /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg
+[1.367s] copying /home/muntaham/new_ws/build/new_pkg/build/lib/new_pkg/pub1.py -> /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg
+[1.368s] byte-compiling /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg/__init__.py to __init__.cpython-312.pyc
+[1.368s] byte-compiling /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg/pub1.py to pub1.cpython-312.pyc
+[1.369s] running install_data
+[1.369s] creating /home/muntaham/new_ws/install/new_pkg/share/ament_index
+[1.369s] creating /home/muntaham/new_ws/install/new_pkg/share/ament_index/resource_index
+[1.369s] creating /home/muntaham/new_ws/install/new_pkg/share/ament_index/resource_index/packages
+[1.369s] copying resource/new_pkg -> /home/muntaham/new_ws/install/new_pkg/share/ament_index/resource_index/packages
+[1.369s] copying package.xml -> /home/muntaham/new_ws/install/new_pkg/share/new_pkg
+[1.369s] running install_egg_info
+[1.389s] Copying ../../build/new_pkg/new_pkg.egg-info to /home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages/new_pkg-0.0.0-py3.12.egg-info
+[1.390s] running install_scripts
+[1.526s] Installing puber script to /home/muntaham/new_ws/install/new_pkg/lib/new_pkg
+[1.527s] writing list of installed files to '/home/muntaham/new_ws/build/new_pkg/install.log'
+[1.557s] Invoked command in '/home/muntaham/new_ws/src/new_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/muntaham/new_ws/build/new_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muntaham/new_ws/install/new_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/new_pkg build --build-base /home/muntaham/new_ws/build/new_pkg/build install --record /home/muntaham/new_ws/build/new_pkg/install.log --single-version-externally-managed install_data

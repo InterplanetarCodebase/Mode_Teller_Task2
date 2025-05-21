@@ -1,0 +1,4 @@
+[console_scripts]
+puber = new_pkg.pub1:main
+puber2 = new_pkg.pub2:main
+puber3 = new_pkg.mode_runner:main
